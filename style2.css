@@ -1,0 +1,81 @@
+
+/* Thêm CSS để tùy chỉnh giao diện menu và thông tin liên hệ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav li{
+    list-style: none;
+}
+header {
+    background-color: #1bd894cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+.contact-info p {
+    margin: 0 15px; /* Khoảng cách giữa các phần tử trong hàng ngang */
+}
+nav {
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung trong thẻ <nav> */
+    margin: 0 25%; /* Khoảng cách 2 bên lề */
+    background-color: #555;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a i {
+    margin-left: 7px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Thêm CSS cho menu con */
+.submenu {
+    display: none;
+}
+
+nav li:hover .submenu {
+    display: block;
+    position: absolute;
+    background-color: #555;
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
