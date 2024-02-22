@@ -79,3 +79,125 @@ nav li:hover .submenu {
     text-decoration: none;
     color: #fff;
 }
+
+
+.b {
+  animation:backwards;
+  position: absolute;
+  width: 1072px;
+  height: 223px;
+  left: 536px;
+  right: 500px;
+  object-fit: cover;
+}
+
+ .overlap-group-2 {
+    position: absolute;
+    width: 1072px;
+    height: 566px;
+    top: 360px;
+    left: 536px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+   .image-solid {
+    position: absolute;
+    width: 452px;
+    height: 293px;
+    top: 22px;
+    left: 53px;
+  }
+  
+   .image-solid-2 {
+    position: absolute;
+    width: 204px;
+    height: 153px;
+    top: 205px;
+    left: 634px;
+  }
+  
+   .image-solid-3 {
+    position: absolute;
+    width: 204px;
+    height: 153px;
+    top: 376px;
+    left: 634px;
+  }
+  
+   .image-solid-4 {
+    position: absolute;
+    width: 204px;
+    height: 153px;
+    top: 34px;
+    left: 634px;
+  }
+  
+   .text-wrapper-5 {
+    width: 323px;
+    top: 321px;
+    left: 138px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .overlap-5 {
+    position: absolute;
+    width: 229px;
+    height: 113px;
+    top: 49px;
+    left: 976px;
+  }
+  
+   .text-wrapper-6 {
+    position: absolute;
+    width: 229px;
+    top: 0;
+    left: -120px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .text-wrapper-7 {
+    width: 229px;
+    top: 225px;
+    left: 860px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .text-wrapper-8 {
+    width: 229px;
+    top: 397px;
+    left: 860px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+ .rectangle {
+    position: absolute;
+    width: 100%;
+    height: 112px;
+    top: 1000px;
+    
+    background-color: #3a3a3a;
+  }
